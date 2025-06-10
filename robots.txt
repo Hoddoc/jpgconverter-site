@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://jpgconverter7.shop/sitemap.xml
