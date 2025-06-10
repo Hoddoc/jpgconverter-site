@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://jpgconverter.site/sitemap.xml
+Sitemap: https://jpgconverter7.shop/sitemap.xml
