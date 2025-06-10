@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2849987094967139"
+     crossorigin="anonymous"></script>
+
+<meta name="naver-site-verification" content="f65ed58ce5b090ba2aa5fad49df789319203761a" />
+
+<meta name="google-site-verification" content="x9Gdf9Snh9IcmiKMnYme1FkP4yE-sxK38FHLYtE33PE" />
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ABCDEFG123"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1HYNBR2KDL');
+</script>
+
+
+
+  <meta charset="UTF-8" />
+  <title>이미지를 JPG로 변환 - PNG, GIF, TIF 등 포맷 변환</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="여러 이미지를 PNG, GIF, TIF, PSD, SVG, WEBP, HEIC, RAW 등에서 JPG 형식으로 변환하는 온라인 서비스입니다." />
+  <meta name="keywords" content="이미지 변환, PNG to JPG, GIF to JPG, TIF to JPG, RAW to JPG, 무료 이미지 변환, 이미지 포맷 변환" />
+  <meta name="robots" content="index, follow">
+
+  <meta property="og:title" content="이미지를 JPG로 변환" />
+  <meta property="og:description" content="다양한 이미지 포맷을 JPG 형식으로 변환하는 간편한 온라인 서비스입니다." />
+  <meta property="og:image" content="https://example.com/images/preview.jpg" />
+  <meta property="og:url" content="https://example.com" />
+  <meta property="og:type" content="website" />
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="이미지를 JPG로 변환">
+  <meta name="twitter:description" content="여러 이미지를 JPG 형식으로 변환하는 무료 온라인 서비스입니다.">
+  <meta name="twitter:image" content="https://example.com/images/preview.jpg" />
+
+  <link rel="alternate" type="application/rss+xml" title="JPG Converter RSS" href="/feed.xml">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2849987094967139" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <script src="https://www.dropbox.com/static/api/2/dropins.js" id="dropboxjs" data-app-key="oc1yrlomdvxklef"></script>
+  <script src="https://apis.google.com/js/api.js"></script>
+
+  <style>
+    :root {
+      --bg-green: #2E5D4B;
+      --text-yellow: #FEC91B;
+      --hover-orange: #F59E0B;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background-color: var(--bg-green);
+      color: var(--text-yellow);
+      font-family: 'Noto Sans KR', sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 20px;
+      text-align: center;
+    }
+    .container { max-width: 700px; width: 100%; }
+    h1.title { font-size: 2.25rem; font-weight: 700; margin-bottom: 1rem; }
+    .formats { font-size: 1.125rem; margin-bottom: 0.5rem; line-height: 1.6; }
+    .formats a {
+      color: var(--text-yellow); text-decoration: underline;
+      margin: 0 4px; transition: color 0.2s;
+    }
+    .formats a:hover { color: var(--hover-orange); }
+    .subtitle { font-size: 1rem; margin-bottom: 1.5rem; }
+    .bold { font-weight: bold; }
+    .upload-section {
+      display: flex; flex-wrap: wrap; justify-content: center;
+      align-items: center; gap: 1rem; margin-bottom: 1rem;
+    }
+    .main-button {
+      background-color: var(--text-yellow); color: var(--bg-green);
+      font-size: 1.125rem; font-weight: bold; padding: 0.75rem 2rem;
+      border: none; border-radius: 0.5rem; cursor: pointer;
+      transition: background-color 0.3s; text-decoration: none;
+      display: inline-block;
+    }
+    .main-button:hover { background-color: var(--hover-orange); color: white; }
+    .icon-buttons { display: flex; flex-direction: column; gap: 0.5rem; }
+    .icon-button {
+      background-color: white; border: none; width: 44px; height: 44px;
+      border-radius: 50%; font-size: 1.2rem; color: var(--bg-green);
+      display: flex; align-items: center; justify-content: center;
+      cursor: pointer; transition: background-color 0.3s, color 0.3s;
+    }
+    .icon-button:hover { background-color: var(--hover-orange); color: white; }
+    .drag-text { font-size: 0.875rem; color: #fff; opacity: 0.75; }
+    label.main-button input { display: none; }
+    .tooltip { position: relative; display: inline-block; }
+    .tooltip .tooltip-text {
+      visibility: hidden; background-color: #111; color: #fff;
+      text-align: left; padding: 6px 10px; border-radius: 4px;
+      position: absolute; z-index: 100; bottom: 120%; left: 50%;
+      transform: translateX(-50%); font-size: 0.75rem;
+      white-space: nowrap; opacity: 0; transition: opacity 0.3s ease-in-out;
+    }
+    .tooltip:hover .tooltip-text { visibility: visible; opacity: 1; }
+    .other-site-button { margin-top: 1.5rem; display: flex; justify-content: flex-end; }
+    @media (max-width: 480px) {
+      .main-button { width: 100%; }
+      .icon-buttons { flex-direction: row; justify-content: center; }
+      .other-site-button { justify-content: center; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">이미지를 JPG로 변환</h1>
+    <p class="formats">
+      변환
+      <a href="#">PNG</a>, <a href="#">GIF</a>, <a href="#">TIF</a>,
+      <a href="#">PSD</a>, <a href="#">SVG</a>, <a href="#">WEBP</a>,
+      <a href="#">HEIC</a> 또는
+      <span class="tooltip">
+        <a href="#" class="bold">RAW</a>
+        <span class="tooltip-text">지원되는 RAW 형식: CR2, RW2, NEF, ARW, SR2, ORF, PEF, RAF, RAW</span>
+      </span>
+      를 <span class="bold">JPG</span> 형식으로.
+    </p>
+    <p class="subtitle">온라인에서 한 번에 많은 이미지를 <span class="bold">JPG</span>로 변환합니다.</p>
+    <div class="upload-section">
+      <label class="main-button">
+        여러 이미지 선택
+        <input type="file" multiple accept="image/*" id="fileInput" />
+      </label>
+      <div class="icon-buttons">
+        <button class="icon-button" id="googleDriveBtn" title="Google Drive에서 선택"><i class="fab fa-google-drive"></i></button>
+        <button class="icon-button" id="dropboxBtn" title="Dropbox에서 선택"><i class="fab fa-dropbox"></i></button>
+      </div>
+    </div>
+    <p class="drag-text">여기에 여러 이미지를 놓기</p>
+
+    <div class="other-site-button">
+      <a href="https://7amazon7.com/about/" target="_blank" class="main-button">웹 개발자</a>
+    </div>
+    <div class="other-site-button">
+      <a href="https://7amazon7.com/about/" target="_blank" class="main-button">웹 개발자</a>
+    </div>
+  </div>
+
+  <script>
+    const API_KEY = 'AIzaSyCEr7nrLQageJq1qz7SHcwtXHc1N42TjLM';
+    const CLIENT_ID = '1017990298692-f064nd5g4gqts648lu6sr5u8fvp1hm4j.apps.googleusercontent.com';
+    const SCOPES = 'https://www.googleapis.com/auth/drive.readonly';
+    let oauthToken;
+    document.getElementById('googleDriveBtn').addEventListener('click', () => {
+      gapi.load('client:auth2', () => {
+        gapi.auth2.init({ client_id: CLIENT_ID }).then(() => {
+          const authInstance = gapi.auth2.getAuthInstance();
+          authInstance.signIn().then(googleUser => {
+            oauthToken = googleUser.getAuthResponse().access_token;
+            openPicker();
+          });
+        });
+      });
+    });
+    function openPicker() {
+      if (!oauthToken) return;
+      const picker = new google.picker.PickerBuilder()
+        .addView(google.picker.ViewId.DOCS_IMAGES)
+        .setOAuthToken(oauthToken)
+        .setDeveloperKey(API_KEY)
+        .setCallback(data => {
+          if (data.action === google.picker.Action.PICKED) {
+            const file = data.docs[0];
+            console.log('Google 선택된 파일:', file);
+            alert(`Google Drive 파일: ${file.name}`);
+          }
+        })
+        .build();
+      picker.setVisible(true);
+    }
+    document.getElementById('dropboxBtn').addEventListener('click', () => {
+      Dropbox.choose({
+        success: files => {
+          console.log('Dropbox 선택된 파일:', files);
+          alert(`Dropbox 파일: ${files[0].name}`);
+        },
+        linkType: 'direct',
+        multiselect: true,
+        extensions: ['.jpg', '.png', '.gif', '.webp', '.svg', '.tif', '.psd', '.heic', '.raw']
+      });
+    });
+    document.getElementById('fileInput').addEventListener('change', e => {
+      console.log('로컬에서 선택된 파일:', e.target.files);
+    });
+  </script>
+</body>
+</html>
